@@ -1,0 +1,48 @@
+--> HUAWEI LAB INVENTORY SYSTEM
+
+This system was created to keep tack of devices and tools in the Huawei lab. As well as
+to control the distribution of devices and keep track of who has what.
+
+--> PAGES
+
+ - index.php
+ - login.php
+ - user.php
+ - register.php
+ - admin.php
+ - add_device.php
+
+
+--> INDEX.php
+
+This page consists of all devices consisting of microcontrollers, sensors, actuators and
+any other device be it wires or tools in the Huawei lab. Clicking on the device card
+displays the description of the device as well as the total number and quantity available.
+
+This is meant for people not registered on the platform. No function can be performed
+here.
+
+
+--> USER.php
+
+This page is for registered members of the platform, notably, those taking the course or
+have taken the course in the past.
+
+A user has the ability to request for a device from the platform by sending requests to
+the admin for approval before taking the device(s).
+
+All users will have their data stored in the database with the device(s) they took. The 
+details will have the date the device(s) was taken and the date the device(s) was
+returned.
+
+Users can delete requests anytime they feel like it before it gets approved by the admin.
+
+
+--> ADMIN.php
+
+Admins have the ability to input new device data into the database, edit device details,
+delete devices, approve requested devices and decline requested devices.
+
+Admins can also view summary of devices taken and returned.
+
+A history of all devices taken and returned will be kept for future records.

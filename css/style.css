@@ -1,0 +1,13 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.banner-height {
+  max-height: 50px;
+}
+
+.set-img {
+  max-height: 100px;
+}
